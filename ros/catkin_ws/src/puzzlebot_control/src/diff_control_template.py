@@ -101,7 +101,7 @@ if __name__ == '__main__':
             doctest.testmod()
             sys.exit(0)
 
-    rospy.init_node('DifferentialController')
+    rospy.init_node('Differentialcontroller')
     DifferentialController().run()
 
     
